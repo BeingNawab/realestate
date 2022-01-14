@@ -47,6 +47,10 @@ const Search = ({ properties }) => {
   );
 };
 
+/*
+will later create another fun
+*/
+
 export async function getServerSideProps({ query }) {
   const purpose = query.purpose || 'for-rent';
   const rentFrequency = query.rentFrequency || 'yearly';
